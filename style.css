@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body{
+    background-color: #1E1E1E;
+}
+#fullpage{
+    display:flex;
+}
+#sidepanel{
+    width: 300px;
+    height: 100vh;
+    background-color:#000000;
+    padding: 15px;
+    
+}
+h1{
+    font-size: 16px;
+    padding: 3px;
+    color: white;
+    
+}
+.sidewords{
+    display: flex;
+    align-items: center;
+   
+}
+#sidelist{
+    margin: 10px;
+    padding: 15px;
+    display: flex;  
+    align-items: center;
+}
+#navi-list{
+    padding: 10px;
+}
+img{
+    height: 30px;
+    margin: 10px;
+}
+.heart{
+    position:absolute;
+    left: 23px;
+    height: 15px;
+}
+#heart{
+    left: 255px;
+    height: 25px;
+}
+#plus{
+    position: absolute;
+    left: 32px;
+    color: black;
+    font-weight: bolder;
+}
+#home{
+    background-color: #2F2C2C;
+}
+#account{
+    display: flex;
+    justify-content: space-between;
+    width: 175vh;
+    padding: 10px;
+    /* margin-bottom: 5px; */
+}
+#accountname{
+    display: flex;
+    align-items: center;
+    background-image:url("object2.png");
+    background-size:100% 100%;
+    border-radius: 50px;
+    height: 40px;
+}
+#accountlogo{
+    border-radius: 50px;
+}
+#for-block{
+    display: inline;
+}
+h2{
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+}
+
+#toplist{
+    display: flex;
+    margin-bottom: 8px;
+}
+.carts{
+    background-color: #303030;
+    margin-right: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 260px;
+}
+.images{
+    height: 75px;
+    margin-right: 10px;
+}
+#bellow-part{
+    display: flex;
+}
+.bellowcarts{
+    background-color: #181818;
+    margin-right: 15px;
+}
+.bellowimages{
+    height: 150px;
+}
+p{
+    color: white;
+    font-size: smaller;
+}
+#player{
+    background-color: #181818;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#currentsong{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#playpng{
+    height: 60px;
+}
+#currentsonglogo{
+ height: 60px;
+}
+
