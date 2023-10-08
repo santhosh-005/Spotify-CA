@@ -33,6 +33,7 @@ h1{
     padding: 15px;
     display: flex;  
     align-items: center;
+    justify-content: space-around;
 }
 #navi-list{
     padding: 10px;
@@ -97,6 +98,7 @@ h2{
     justify-content: flex-start;
     align-items: center;
     width: 260px;
+    /* position: relative; */
 }
 .images{
     height: 75px;
@@ -121,6 +123,8 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    bottom: 0;
 }
 #currentsong{
     display: flex;
@@ -133,4 +137,56 @@ p{
 #currentsonglogo{
  height: 60px;
 }
+@media screen and (max-width:1000px){
+    #heart{
+        display: none;
+    }
+    #sidepanel{
+        display: none;
+    }
+    #account{
+        width:100%;
+        display: flex;
+    }
+    .carts{
+        width: 90%;
+    }
+    .carts img{
+        height:80px;
+    }
+    #toplist{
+        display: grid;
+        padding: 15px;
+        grid-template-columns: repeat(2,1fr);
+        row-gap:15px;
+        margin-bottom: 0;
+    }
+    #alone{                                         
+        margin-left: 15px;
+        margin-bottom: 15px;
+    }
+    #bellow-part{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #player{
+        display: flex;
+        position: sticky;
+        bottom: 0;
+        width: 50%;
+        /* border: 2px solid red; */
+        width: 100%;
+    }
+    #playpng{
+        height: 20px;
+    }
+    #heartgreen{
+        height: 10px;
+    }
+    #extra{
+        display: none;
+    }
+}
+  
 
